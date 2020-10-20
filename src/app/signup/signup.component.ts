@@ -1,9 +1,9 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Subscription } from 'rxjs';
-import { UserService } from '../services/shared/user.service';
-import { MustMatch } from './must-match.validator'
-import { User } from '../services/shared/models/user'
+import { UserService } from '../shared/services/user.service';
+import { MustMatch } from './must-match.validator';
+import { User } from '../shared/services/models/user';
 import { Router } from '@angular/router';
 
 @Component({

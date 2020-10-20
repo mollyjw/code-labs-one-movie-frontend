@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { LocalStorageService } from '../services/shared/local-storage.service';
-import { MovieService } from '../services/shared/movie.service';
-import { Movie } from './../services/shared/models/movie';
+import { LocalStorageService } from '../shared/services/local-storage.service';
+import { MovieService } from '../shared/services/movie.service';
+import { Movie } from '../shared/services/models/movie';
 
 @Component({
   selector: 'app-home',
